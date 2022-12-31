@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment</title>
+        <style>
+            .round-corner{
+                border-radius:5px;
+                border-style:solid;
+                border-width:0.1px;
+                border-color: rgb(184, 182, 182);
+                width:150px;
+                height: 25px;
+                padding-left: 10px;
+                margin-bottom: 20px;
+            }
+            .no-border{
+                box-shadow: inset;
+                border-width: 0;
+                border-radius: 45px;
+                border-style: solid;
+                border-color:rgb(184, 182, 182);
+                margin-left:0px;
+                width: 250px;
+                padding-left: 10px;
+                box-shadow:3px 3px 7px rgba(0, 0 , 0, 0.20);
+                height: 25px;
+                margin-bottom: 20px;
+            }
+            .m{
+                color:gray;
+                font-family: Arial;
+                margin-bottom: 0px;
+                font-size: 10px;
+                
+            }
+            .sign{
+                margin-top: 3px;
+                border-style: solid;
+                border-radius: 2px;
+                border-width: 1px;
+            }
+            .n{
+                color:gray;
+                font-family: Arial;
+                margin-bottom: 8px;
+                margin-top: 8px;
+                font-size: 6.8px;
+            }
+            .button{
+                text-align: center;
+                background-color: rgb(35, 35, 201);
+                color:white;
+                width: 168px;
+                height:30px;
+                border-radius: 15px;
+                border-width: 0;
+                margin-bottom: 20px;
+            }
+            .button:hover{
+                cursor:pointer;
+            }
+            .thumbnail{
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                object-position: center;
+                object-fit: cover;
+                vertical-align: middle;
+            }
+            .text{
+                
+                margin-top: 0;
+                margin-left: 0;
+                vertical-align: middle;
+                font-size:10px;
+                border-width: 0;
+                width: 100px;
+            }
+            .tweet-button{
+                background-color: rgb(64, 95, 247);
+                color:white;
+                height:13px;
+                width:30px;
+                border-radius:20px;
+                cursor:pointer;
+                border:none;
+                font-weight:bold;
+                font-size:7px;
+                text-align: center;
+                padding-left:5px;
+                vertical-align: middle;
+                margin-left: 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <input class="round-corner" type="text" placeholder="Search" >
+        <p></p>
+        <input class="no-border" type="text" placeholder="Search Google or type a URL">
+        <p class="m">Email</p>
+        <input class="sign" type="text" >
+        <p class="n">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button class="button">Agree & Join</button>
+        <p></p>
+        <img class="thumbnail" src="Thumbnails/t1.jpeg">
+        <input class="text" type="text" placeholder="What's happening?">
+        <button class="tweet-button">Tweet</button>
+    </body>
+</html>
